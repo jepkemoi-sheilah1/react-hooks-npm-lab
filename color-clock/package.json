@@ -1,0 +1,21 @@
+{
+  "name": "color-clock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Hello World!'",
+    "start": "serve",
+    "build": "esbuild index.js --bundle --outfile=dist/out.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "build": "^0.1.4",
+    "date-fns": "^2.30.0",
+    "esbuild": "^0.25.2",
+    "npm": "^11.2.0",
+    "run": "^1.5.0",
+    "serve": "^14.2.4"
+  }
+}
